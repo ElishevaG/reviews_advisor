@@ -50,11 +50,11 @@
 
 ## Output Files Generated
 - **PostgreSQL Database**: Complete dataset in `pain_point` table
-- **Priority Analysis Report**: /Users/eghezail/Desktop/LLM_Model/pain_and_actionable_insight/reports/priority_analysis_report.csv
-- **Executive Summary**: /Users/eghezail/Desktop/LLM_Model/pain_and_actionable_insight/reports/executive_summary.md
-- **Solution Recommendations**: /Users/eghezail/Desktop/LLM_Model/pain_and_actionable_insight/reports/solution_recommendations.json
+- **Priority Analysis Report**: /Users/eghezail/Desktop/LLM_Model/insights_extractor/reports/priority_analysis_report.csv
+- **Executive Summary**: /Users/eghezail/Desktop/LLM_Model/insights_extractor/reports/executive_summary.md
+- **Solution Recommendations**: /Users/eghezail/Desktop/LLM_Model/insights_extractor/reports/solution_recommendations.json
 - **Pipeline Metadata**: pipeline_metadata.json
-- **Visualizations**: /Users/eghezail/Desktop/LLM_Model/pain_and_actionable_insight/reports/theme_volume_distribution.png, /Users/eghezail/Desktop/LLM_Model/pain_and_actionable_insight/reports/priority_analysis.png, /Users/eghezail/Desktop/LLM_Model/pain_and_actionable_insight/reports/seasonal_distribution.png
+- **Visualizations**: /Users/eghezail/Desktop/LLM_Model/insights_extractor/reports/theme_volume_distribution.png, /Users/eghezail/Desktop/LLM_Model/pain_and_actionable_insight/reports/priority_analysis.png, /Users/eghezail/Desktop/LLM_Model/pain_and_actionable_insight/reports/seasonal_distribution.png
 
 ## Enhanced Pipeline Architecture Completed
 ✅ All enhanced nodes executed successfully as per TDD.md:

@@ -203,9 +203,9 @@ Based on the analysis, here are the **top 3 quick wins** to implement immediatel
 
 ## 🔗 Related Documents
 
-- **Executive Summary**: `/Users/eghezail/Desktop/LLM_Model/pain_and_actionable_insight/reports/executive_summary.md`
-- **Detailed Analysis**: `/Users/eghezail/Desktop/LLM_Model/pain_and_actionable_insight/reports/priority_analysis_report.csv` 
-- **Technical Data**: `/Users/eghezail/Desktop/LLM_Model/pain_and_actionable_insight/reports/solution_recommendations.json`
+- **Executive Summary**: `/Users/eghezail/Desktop/LLM_Model/insights_extractor/reports/executive_summary.md`
+- **Detailed Analysis**: `/Users/eghezail/Desktop/LLM_Model/insights_extractor/reports/priority_analysis_report.csv` 
+- **Technical Data**: `/Users/eghezail/Desktop/LLM_Model/insights_extractor/reports/solution_recommendations.json`
 - **Final Report**: `final_report.md`
 
 ---

@@ -1,0 +1,103 @@
+{
+  "pipeline_info": {
+    "name": "Customer Review Analysis Pipeline",
+    "description": "Technical implementation based on TDD.md specification with PostgreSQL storage",
+    "nodes": [
+      "Date Feature Engineering",
+      "Sentence Splitting & Pain Point Extraction",
+      "Text Vectorization",
+      "Database Write",
+      "Clustering",
+      "Theme Generation",
+      "Dimensional Grouping",
+      "Impact Prioritization",
+      "Solution Generation & Visualization"
+    ],
+    "technologies": {
+      "Date Feature Engineering": "pandas",
+      "Sentence Splitting & Pain Point Extraction": "GPT-4o-mini",
+      "Text Vectorization": "OpenAI text-embedding-3-small size 512",
+      "Database Write": "psycopg2/SQLAlchemy",
+      "Clustering": "HDBSCAN",
+      "Theme Generation": "GPT-4o-mini",
+      "Dimensional Grouping": "pandas + PostgreSQL",
+      "Impact Prioritization": "pandas + PostgreSQL",
+      "Solution Generation & Visualization": "GPT-4o-mini + matplotlib"
+    },
+    "database_operations": {
+      "Database Write": "DB Write 1: Store pain points with embeddings",
+      "Theme Generation": "DB Write 2: Update with cluster IDs and theme labels"
+    },
+    "output_deliverables": [
+      "PostgreSQL Database",
+      "Priority Analysis Report",
+      "Solution Recommendations",
+      "Visualizations",
+      "Executive Summary"
+    ],
+    "total_nodes": 9,
+    "database_config": {
+      "name": "disneyland_reviews",
+      "user": "eghezail",
+      "table": "pain_point"
+    },
+    "model_config": {
+      "llm": "gpt-4o-mini",
+      "embedding": "text-embedding-3-small",
+      "dimensions": 512
+    }
+  },
+  "execution_timestamp": "2025-07-16T22:41:43.027100",
+  "total_cost": 0.00139815,
+  "database_info": {
+    "url": "localhost:5432/disneyland_reviews",
+    "table": "pain_point",
+    "total_records": 5768
+  },
+  "cluster_info": {
+    "n_clusters": 38,
+    "n_outliers": 4070
+  },
+  "themes": {
+    "0": "No Outside Food Allowed",
+    "1": "Excessive Walking Distances",
+    "2": "Queue Jumping Issues",
+    "3": "Hot Weather Impact",
+    "4": "Extreme Heat Conditions",
+    "5": "Staff Rudeness",
+    "6": "Overcrowding Issues",
+    "7": "Crowded During Peak Times",
+    "8": "Parade Cancellations Due to Weather",
+    "9": "Ongoing Construction Issues",
+    "10": "Fireworks Experience Issues",
+    "11": "Long Wait Times",
+    "12": "Limited Availability",
+    "13": "Weather Impact on Experience",
+    "14": "Limited Fast Pass Availability",
+    "15": "Limited Food Options",
+    "16": "Limited Vegetarian Options",
+    "17": "High Ticket Prices",
+    "18": "Lack of Thrill Rides",
+    "19": "Poor Food Quality",
+    "20": "Food Quality Issues",
+    "21": "Limited Ride Options",
+    "22": "Limited Ride Variety",
+    "23": "High Pricing Concerns",
+    "24": "Long Wait Times",
+    "25": "High Prices on Souvenirs",
+    "26": "Park Size Concerns",
+    "27": "Park Size Limitations",
+    "28": "Long Wait Times",
+    "29": "Long Wait Times",
+    "30": "Park Size Comparison",
+    "31": "Park Size Discrepancy",
+    "32": "Limited Park Space",
+    "33": "Long Queue Times",
+    "34": "Long Wait Times",
+    "35": "High Food Prices",
+    "36": "High Food Prices",
+    "37": "High Food Prices",
+    "-1": "Miscellaneous Issues"
+  },
+  "success_metrics": {}
+}

@@ -1,0 +1,26 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Rules
+
+## TDD 
+never update the TDD.md file if it is not explicit asked 
+
+## Python Environment
+- **Environment Name**: `venv`
+- **Location**: `reviews_advisor/venv`
+- **Activation**: `source venv/bin/activate`
+
+## Development Guidelines
+1. All Python commands and scripts in this project must use the `venv` virtual environment
+2. Before running any Python code or terminal commands, ensure the virtual environment is activated
+3. All package installations should be done within this virtual environment
+
+## Usage
+For any task in this chat/project:
+1. Activate the environment: `source venv/bin/activate`
+2. Run Python commands or scripts within this activated environment
+3. Install additional packages using: `pip install <package_name>` and update the requirement.txt file
+

@@ -1,4 +1,4 @@
-# Disney Review Analysis - Project Overview
+# Reviews Advisor - Project Overview
 
 This project contains two main modules for analyzing Disney visitor reviews:
 
